@@ -1,0 +1,23 @@
+/* Parallels Panel Theme (left.css) */
+
+html, body { overflow: auto; }
+
+#swsoftInfo { padding-right: 18px; padding-left: 0; }
+.tree-container .tree-container, .tree-item.leaf, .tree-item-active.leaf { padding-right: 19px; padding-left: 0; }
+.tree-item img { margin-right: 0; margin-left: 3px; }
+.tree-item span { display: inline-block; }
+.tree-item b { margin-right: 2px; margin-left: 0; }
+
+/* = Left Navigation Search =
+------------------------------------------------------------------------------ */
+.sid-left .left-search { padding-right: 8px; padding-left: 30px;  }
+.sid-left .left-search-button { right: auto; left: 4px; }
+.sid-left .left-search-results { right: 15px; left: auto; }
+.sid-left .left-search-results-item img { float: right; margin-right: -20px; margin-left: 0; }
+.sid-left .left-search-results-item a, .sid-left .left-search-results-item a:visited { padding-right: 25px; padding-left: 8px; }
+.sid-left .left-search-results-item a:hover, 
+.sid-left .left-search-results-item a:active,
+.sid-left .left-search-results-item a:focus,
+.sid-left .left-search-results-item a.active,
+.sid-left .left-search-results-item a.active:hover,
+.sid-left .left-search-results-item a.active:visited { padding-right: 24px; padding-left: 7px; }

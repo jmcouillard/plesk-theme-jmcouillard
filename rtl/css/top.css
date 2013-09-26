@@ -1,0 +1,7 @@
+/* Parallels Panel Theme (top.css) */
+
+/* demo & preview */
+#topTxtBlock { padding-right: 0; padding-left: 10px; text-align: left; }
+#topRightLogo { margin-right: 18px; }
+#topTxtMyAccount a, #topTxtLogout a, #topTxtHelp a, #topTxtToCP a, #topTxtToBM a, #topTxtToPOA a { padding-right: 22px; padding-left: 0; }
+#topTxtToCP, #topTxtToBM, #topTxtToPOA, #topTxtLoggedInAs, #topTxtMyAccount, #topTxtLogout, #topTxtHelp, #topRightLogo, #search { background-position: 100% 0; }

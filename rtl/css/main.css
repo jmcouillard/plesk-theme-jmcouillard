@@ -1,0 +1,133 @@
+/* Parallels Panel Theme (main.css) */
+
+/* = Base =
+------------------------------------------------------------------------------ */
+/* - Links - */
+.more a:after { content: "\2190"; }
+
+/* = Layout =
+------------------------------------------------------------------------------ */
+#page { text-align: right; }
+/* - Powered logo - */
+.sid-pa .powered-logo { float: left; margin-left: 5px; }
+
+/* = Login Screen =
+------------------------------------------------------------------------------ */
+#login-page { text-align: right; }
+#login-page .form-row .field-name { padding-right: 0; padding-left: 8px; }
+#login-page .form-row .field-value { margin-right: 140px; margin-left: 0; }
+#login-page .form-row .single-row { padding-right: 140px; padding-left: 0; }
+#login-page .btns-box .field-value { text-align: left; }
+#login-page .btns-box .field-value .btn { margin-right: 4px; margin-left: 0; }
+
+/* = Header =
+------------------------------------------------------------------------------ */
+#header .shortcuts { float: left; }
+.shortcuts .shortcuts-item { float: right; margin-right: 15px; margin-left: 0; }
+.top-user-info-name { padding-right: 3px; padding-left: 7px; text-align: left; }
+
+/* = Pathbar =
+------------------------------------------------------------------------------ */
+.sid-pa .pathbar { margin-right: 0; margin-left: 160px; }
+.pathbar li, .pathbar .pathbarItem { float: right; margin-right: 0; margin-left: 5px; padding-right: 0; padding-left: 10px; }
+.pathbar b { right: auto; left: 0; margin-left: 0; }
+
+/* = Headings =
+------------------------------------------------------------------------------ */
+.heading .toolbar { float: left; }
+.sid-pa .heading .toolbar, .sid-pa.admin-home .toolbar { text-align: left; }
+.heading .toolbar .s-btn { margin-right: 7px; margin-left: 0; }
+
+
+/* = Homepage =
+------------------------------------------------------------------------------ */
+.admin-home #main, .two-cols #main, .admin-home #secondary, .two-cols #secondary { float: right; margin-right: -1px; margin-left: 0; }
+.admin-home #main, .two-cols #main { border-right: 0; border-left-width: 1px; border-left-style: solid; }
+.admin-home #secondary, .two-cols #secondary { border-right-width: 1px; border-right-style: solid; border-left: 0; }
+.admin-home .admin-dashboard-box .box-area { padding-right: 72px; padding-left: 0; background-position: 100% 3px; }
+.admin-home .admin-dashboard-box li, .sid-pa.admin-home .admin-dashboard-box li { padding-right: 12px; padding-left: 8px; background-position: 100% 7px; }
+.admin-home .no-domain .domains-list, .admin-home .no-aps .no-aps-msg { padding-right: 0; padding-left: 8px; }
+
+/* = Panels =
+------------------------------------------------------------------------------ */
+/* - Summary - */
+.sid-pa .summaryGrid.inner .sgc { padding-right: 0; padding-left: 10px; }
+
+/* = Tools Area =
+------------------------------------------------------------------------------ */
+.tools-box .title h3, .tools-list-box .title h3, .list-box .title h3, .form-box .title h3 { padding-right: 0; padding-left: 5px; }
+.tools-list-box .tools-list .tool-block { padding-right: 46px; padding-left: 8px; }
+.tools-list-box .tools-list a.tool-block:hover { padding-right: 45px; padding-left: 7px; }
+.tools-list .tool-block .tool-icon { float: right; margin-right: -38px; margin-left: 0; }
+.linkWrapper .q0 { margin-right: 5px; margin-left: 0; }
+
+/* = List Area =
+------------------------------------------------------------------------------ */
+.sid-legacy .objects-level-2 { padding-right: 18px; }
+.sid-pa .list .gl-1 { padding-right: 28px; }
+.sid-pa .list .gl-2 { padding-right: 56px; }
+.sid-pa .list .gl-3 { padding-right: 84px; }
+.sid-pa .list .gl-4 { padding-right: 122px; }
+.sid-pa .list .gm-0 { padding-right: 18px; }
+.sid-pa .list .gm-1 { padding-right: 46px; }
+.sid-pa .list .gm-2 { padding-right: 74px; }
+.sid-pa .list .gm-3 { padding-right: 96px; }
+.sid-pa .list .gm-4 { padding-right: 140px; }
+.sid-legacy .objects-level-2, .sid-pa .list .gl-1, .sid-pa .list .gl-2, .sid-pa .list .gl-3, .sid-pa .list .gl-4, .sid-pa .list .gm-0, .sid-pa .list .gm-1, .sid-pa .list .gm-2, .sid-pa .list .gm-3, .sid-pa .list .gm-4 { padding-left: 0; }
+
+/* = Toolbar =
+------------------------------------------------------------------------------ */
+.objects-toolbar, .action-btns-block, .actions-box .buttons, .formArea .actions-box .buttons { padding-right: 5px; padding-left: 0; }
+.actions-box .buttons .misc, .formArea .actions-box .buttons .misc { padding-right: 5px; padding-left: 0; text-align: left; }
+.objects-toolbar .s-btn, .action-btns-block .s-btn, .objects-toolbar span.separator, .objects-toolbar span.separator-disabled { float: right; margin-right: 0; margin-left: 4px; }
+.screenBody .actions-box .buttons .commonButton { margin-right: 0; margin-left: 4px; }
+.objects-toolbar .search-control, .action-btns-block .search-control, .objects-toolbar .quick-search-box { float: left; }
+.objects-toolbar .search-control .s-btn, .action-btns-block .search-control .s-btn { margin-right: 0; margin-left: 5px; }
+.objects-toolbar .search-control .s-btn span, .action-btns-block .search-control .s-btn span { padding-right: 50px; padding-left: 0; }
+.objects-toolbar .quick-search-box .search-field em { float: right; margin-right: 0; margin-left: -22px; }
+.objects-toolbar .quick-search-box input { float: right; margin-right: 0; margin-left: 3px; padding-right: 2px; padding-left: 22px; }
+.search-box li span { padding-right: 0; padding-left: 7px; }
+.search-box li .s-btn span { padding-right: 20px; padding-left: 0; background-position: 100% 0; }
+.actions-box .search-box .s-btn, .screenBody .actions-box .searchArea .commonButton, .screenBody .actions-box .searchArea div.commonButton:hover { margin-right: 0; margin-left: 10px; }
+.actions-box .search-box input, .actions-box .search-box select { margin-right: 0; margin-left: 7px; }
+
+/* = Messages =
+------------------------------------------------------------------------------ */
+.msg-box .msg-content { padding-right: 22px; padding-left: 0; text-align: right; background-position: 100% 8px; }
+
+/* = Popup Blocks =
+------------------------------------------------------------------------------ */
+/* - Popup Box - */
+.popup-box .popup-wrapper { text-align: right; }
+.popup-box .heading-area { padding-right: 10px; padding-left: 25px; }
+.popup-box .heading-area .close { right: auto; left: 8px; }
+
+/* = Forms =
+------------------------------------------------------------------------------ */
+.form-row div.field-name { float: right; padding-right: 0; padding-left: 5px; text-align: right; }
+.form-row div.field-value { margin-right: 200px; margin-left: 0; }
+.form-row .level1 div.field-value { margin-right: 183px; margin-left: 0; }
+.btns-box .form-row div.field-value { text-align: right; }
+.form-row .checkbox, .form-row .radio { margin-right: 0; margin-left: 2px; }
+.lte7 .form-row .checkbox, .lte7 .form-row .radio { margin-right: -3px; margin-left: -1px; }
+.form-row .hint-warning { padding-right: 20px; padding-left: 0; background-position: 100% 0; }
+.form-row .field-name .hint { margin-right: 0; margin-left: 10px; }
+.form-row .sb-item-remove { margin-right: 20px; margin-left: 0; }
+.level1 { padding-right: 1.5em; padding-left: 0; }
+.uiCellRows .form-table > tbody > tr > td, .uiCellRows .form-table td.field-value { padding-right: 0; padding-left: 4px; }
+/* - Spinner - */
+.spinContainer, .spinButtons { float: right; }
+.spinContainer input { float: right; margin-right: 0; margin-left: 5px; }
+
+/* = Wizard =
+------------------------------------------------------------------------------ */
+.wizard-step-number, .lte7 .wizard-step-number { margin-left: 50%; margin-right: -50%; }
+.wizard-step-number b { left: auto; right: 100%; margin-left: 0; margin-right: -13px; }
+.wizard-item:first-child .wizard-step-number { margin-left: 50%; margin-right: 50%; }
+.lte7 .wizard-step-number b { left: auto; right: 50%; }
+.lte7 .wizard-item:first-child .wizard-step-number b { margin-left: 0; margin-right: -18px; }
+
+/* TODO: remove styles with .wizard-area */
+.wizard-area li { float: right; }
+.wizard-area .spacer.before { background-position: 0 -8px; }
+.wizard-area .spacer.after { background-position: 0 -4px; }

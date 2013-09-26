@@ -1,0 +1,6 @@
+/* Parallels Panel Theme (main-buttons.css) */
+
+/* - Buttons - */
+.btn, .m-btn { margin-right: 0; margin-left: 10px; }
+/* - Text with small icon - */
+.s-btn span, .sb-btn span { padding-right: 20px; padding-left: 0; background-position: 100% 0; text-align: right; }
