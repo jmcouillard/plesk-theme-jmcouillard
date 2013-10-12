@@ -947,7 +947,14 @@ span.commonButton, span.commonButton button, .toolsArea span.commonButton:hover,
 /* jmcouillard overrides
 ------------------------------------------------------------------------------ */
 
+.sid-top .body { 
+	background: #d5d5d5 url(../images/body.jpg) 0 0 repeat;
+}
 
+.sid-main #top, .sid-main .top-panel, .sid-main #content, .sid-main #navbar {
+	margin: auto;
+	width: 1200px;
+}
 
 
 .top-help, .top-search, .top-company-logo {
